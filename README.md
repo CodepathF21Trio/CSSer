@@ -27,6 +27,7 @@ This app helps people who are learning CSS. It has several modules that are spec
 
 * User can download CSS cheat sheets
 * User can convert colors (rgb to hex to English name to hsl)
+* User can checkout a variety of colors in palette
 *	User can navigate between pages (download, camera, palette, snippet and conversion page)
 
 **Optional Nice-to-have Stories**
