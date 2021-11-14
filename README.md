@@ -81,15 +81,15 @@ Optional:
 
 ## Wireframes
 
-<img src="" width=800><br>
-
-### [BONUS] Digital Wireframes & Mockups
+### [s] Digital Wireframes & Mockups
 
 <img src="https://github.com/CodepathF21Trio/CSSer/blob/main/CSSer_digital_wireframes.png" height=200>
 
 ### [BONUS] Interactive Prototype
 
 <img src="https://github.com/CodepathF21Trio/CSSer/blob/main/CSSer_Design.gif" width=200>
+
+<br/>
 
 ## Schema:
 
@@ -180,8 +180,8 @@ Optional:
 
     <br />
 
-    | HTTP Verb |       Endpoint       |                              Description |
-    | :-------- | :------------------: | ---------------------------------------: |
-    | GET       |        /:user        |            get the credentials of a user |
-    | GET       |    /palettes/:id     | get the details about a specific palette |
-    | GET       | /colors/color=color: |               return the converted value |
+| HTTP Verb |       Endpoint       |                              Description |
+| :-------- | :------------------: | ---------------------------------------: |
+| GET       |        /:user        |            get the credentials of a user |
+| GET       |    /palettes/:id     | get the details about a specific palette |
+| GET       | /colors/color=color: |               return the converted value |
