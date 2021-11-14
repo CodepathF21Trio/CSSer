@@ -126,7 +126,7 @@ Optional:
 
   <br />
 
-  <h2><u>User Model:</u></h2>
+  <h3><u>User Model:</u></h3>
 
   | Property |  Type  |                           Description |
   | :------- | :----: | ------------------------------------: |
@@ -137,7 +137,7 @@ Optional:
 
   <br />
 
-  <h2><u>Palette Model:</u></h2>
+  <h3><u>Palette Model:</u></h3>
 
   | Property  |  Type  |                              Description |
   | :-------- | :----: | ---------------------------------------: |
@@ -148,7 +148,7 @@ Optional:
 
   <br />
 
-  <h2><u>PDF Model:</u></h2>
+  <h3><u>PDF Model:</u></h3>
 
   | Property   |  Type  |                                                        Description |
   | :--------- | :----: | -----------------------------------------------------------------: |
@@ -166,7 +166,7 @@ Optional:
 
   <br />
 
-  ### networking
+  ### Networking
 
   List of network requests by screen
 
