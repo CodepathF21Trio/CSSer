@@ -165,3 +165,23 @@ Optional:
   | Output   | String |                 Output value after conversion |
 
   <br />
+
+  ### networking
+
+  List of network requests by screen
+
+  - Home Page:
+    - (read/GET) authenticate user credentials
+  - Palette Page:
+    - (read/GET) get the deatils about the clicked palette
+  - Converter Page:
+
+    - (read/GET) get the converted input
+
+    <br />
+
+    | HTTP Verb |       Endpoint       |                              Description |
+    | :-------- | :------------------: | ---------------------------------------: |
+    | GET       |        /:user        |            get the credentials of a user |
+    | GET       |    /palettes/:id     | get the details about a specific palette |
+    | GET       | /colors/color=color: |               return the converted value |
