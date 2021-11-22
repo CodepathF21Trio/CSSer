@@ -10,6 +10,7 @@
         <entry key="app/src/main/res/drawable/gradient_list.xml" value="0.5354166666666667" />
         <entry key="app/src/main/res/layout/activity_camera.xml" value="0.434375" />
         <entry key="app/src/main/res/layout/activity_converter.xml" value="0.4484375" />
+        <entry key="app/src/main/res/layout/activity_download.xml" value="0.4484375" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.55" />
         <entry key="app/src/main/res/layout/activity_palette.xml" value="0.4484375" />
       </map>
