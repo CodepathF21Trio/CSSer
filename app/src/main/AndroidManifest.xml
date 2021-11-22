@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CSSer">
         <activity
+            android:name=".RGBtoHEX"
+            android:exported="true" />
+        <activity
+            android:name=".HEXtoRGB"
+            android:exported="true" />
+        <activity
             android:name=".DownloadActivity"
             android:exported="false" />
         <activity

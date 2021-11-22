@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">CSSer</string>
     <string name="conveter">Conveter</string>
+    <string name="red">Red</string>
 </resources>

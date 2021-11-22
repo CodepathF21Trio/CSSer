@@ -11,7 +11,7 @@
     >
 
     <Button
-        android:id="@+id/converter_btn"
+        android:id="@+id/btnConvert"
         android:layout_width="270dp"
         android:layout_height="100dp"
         android:backgroundTint="#56FFC107"
@@ -39,7 +39,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/converter_btn"
+        app:layout_constraintTop_toBottomOf="@+id/btnConvert"
         app:strokeColor="#2D50A6"
         app:strokeWidth="4dp" />
 

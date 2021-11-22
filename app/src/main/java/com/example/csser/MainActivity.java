@@ -7,7 +7,6 @@ import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
         animationDrawable.start();
 
         // connect variable to the proper item in the layout
-        converterButton = findViewById(R.id.converter_btn);
+        converterButton = findViewById(R.id.btnConvert);
         paletteButton = findViewById(R.id.palette_btn);
         cameraButton = findViewById(R.id.camera_btn);
         downloadButton = findViewById(R.id.download_btn);
 
-// Go to converter activity
+        // Go to converter activity
         converterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
