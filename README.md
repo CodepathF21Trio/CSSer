@@ -185,3 +185,10 @@ Optional:
 | GET       |        /:user        |            get the credentials of a user |
 | GET       |    /palettes/:id     | get the details about a specific palette |
 | GET       | /colors/color=color: |               return the converted value |
+
+
+## Video Walkthrough for Sprint 1
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint1.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
