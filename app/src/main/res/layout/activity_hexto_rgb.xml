@@ -113,9 +113,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5sp"
-        android:gravity="center"
-        android:text="Color"
         android:background="#CCCCCC"
-        android:textSize="65sp"/>
+        android:gravity="center"
+        android:textSize="65sp" />
 
 </LinearLayout>

@@ -113,28 +113,27 @@
             />
 
     </LinearLayout>
+
     <TextView
         android:id="@+id/tvHex"
-        android:background="@drawable/border"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40sp"
         android:layout_margin="5sp"
-        android:gravity="center"
+        android:background="@drawable/border"
         android:fontFamily="Arial"
-        android:text="Hexadecimal"
+        android:gravity="center"
+        android:text="HEX: "
         android:textColor="#000000"
-        android:textStyle="bold"
         android:textSize="25sp"
-        />
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/tvColor"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="5sp"
-        android:gravity="center"
-        android:text="Color"
         android:background="#CCCCCC"
-        android:textSize="65sp"/>
+        android:gravity="center"
+        android:textSize="65sp" />
 
 </LinearLayout>

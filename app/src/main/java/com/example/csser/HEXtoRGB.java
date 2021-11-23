@@ -73,6 +73,57 @@ public class HEXtoRGB extends AppCompatActivity {
                 return false;
             }
         }
+        if(etHex.length() == 2)
+        {
+
+            //extract r, g, b from hex string:
+            String red = etHex.getText().toString().substring(0,2);
+            String green = red; //etHex.getText().toString().substring(2,4);
+            String blue = red; //etHex.getText().toString().substring(4,6);
+
+            //update etHex:
+            etHex.setText(red + green + blue);
+
+            try{
+                //convert r, g, b string in Base 16.
+                r = Integer.parseInt(red,16);
+                g = Integer.parseInt(green,16);
+                b = Integer.parseInt(blue,16);
+                return true;
+
+            }
+            catch (final NumberFormatException e) {
+                return false;
+            }
+        }
+        if(etHex.length() == 3)
+        {
+
+            //extract r, g, b from hex string:
+            String red = etHex.getText().toString().substring(0,1);
+            String green = etHex.getText().toString().substring(1,2);
+            String blue = etHex.getText().toString().substring(2,3);
+
+            //doubles
+            red = red +red;
+            green = green +green;
+            blue = blue +blue;
+
+            //update etHex:
+            etHex.setText(red + green + blue);
+
+            try{
+                //convert r, g, b string in Base 16.
+                r = Integer.parseInt(red,16);
+                g = Integer.parseInt(green,16);
+                b = Integer.parseInt(blue,16);
+                return true;
+
+            }
+            catch (final NumberFormatException e) {
+                return false;
+            }
+        }
         else{
             return false;
         }
