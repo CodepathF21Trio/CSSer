@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class DownloadActivity extends AppCompatActivity {
 
-    private Button cssBtn, sassBtn,bootstrapBtn,tailwindBtn;
+    private Button cssBtn, sassBtn,bootstrapBtn,BulmaBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,23 +23,56 @@ public class DownloadActivity extends AppCompatActivity {
         cssBtn = (Button) findViewById(R.id.css_btn);
         sassBtn = (Button) findViewById(R.id.sass_btn);
         bootstrapBtn = (Button) findViewById(R.id.bootstrap_btn);
-        tailwindBtn = (Button) findViewById(R.id.tailwind_btn);
+        BulmaBtn = (Button) findViewById(R.id.bulma_btn);
 
 
-        cssBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String url = "https://github.com/Elmhaf/cheatsheets/raw/main/csscheatsheet.pdf";
-                String title = URLUtil.guessFileName(url,null,null);
-                DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
-                request.setDescription("Downloading your requested file. Please wait...");
-                request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
-                request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,title);
-                DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
-                downloadManager.enqueue(request);
-                Toast.makeText(DownloadActivity.this, "Downloading Started", Toast.LENGTH_SHORT).show();
-            }
+        cssBtn.setOnClickListener(view -> {
+            String url = "https://github.com/Elmhaf/cheatsheets/raw/main/CSS.pdf";
+            String title = URLUtil.guessFileName(url,null,null);
+            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+            request.setDescription("Downloading your requested file. Please wait...");
+            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,title);
+            DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+            downloadManager.enqueue(request);
+            Toast.makeText(DownloadActivity.this, "CSS Downloading Started", Toast.LENGTH_SHORT).show();
         });
+
+        bootstrapBtn.setOnClickListener(view -> {
+            String url = "https://github.com/Elmhaf/cheatsheets/raw/main/Bootstrap.pdf";
+            String title = URLUtil.guessFileName(url,null,null);
+            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+            request.setDescription("Downloading your requested file. Please wait...");
+            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,title);
+            DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+            downloadManager.enqueue(request);
+            Toast.makeText(DownloadActivity.this, "Bootstrap Downloading Started", Toast.LENGTH_SHORT).show();
+        });
+        BulmaBtn.setOnClickListener(view -> {
+            String url = "https://github.com/Elmhaf/cheatsheets/raw/main/Bulma.pdf";
+            String title = URLUtil.guessFileName(url,null,null);
+            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+            request.setDescription("Downloading your requested file. Please wait...");
+            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,title);
+            DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+            downloadManager.enqueue(request);
+            Toast.makeText(DownloadActivity.this, "Bulma Downloading Started", Toast.LENGTH_SHORT).show();
+        });
+
+        sassBtn.setOnClickListener(view -> {
+            String url = "https://github.com/Elmhaf/cheatsheets/raw/main/Sass.pdf";
+            String title = URLUtil.guessFileName(url,null,null);
+            DownloadManager.Request request = new DownloadManager.Request(Uri.parse(url));
+            request.setDescription("Downloading your requested file. Please wait...");
+            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,title);
+            DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
+            downloadManager.enqueue(request);
+            Toast.makeText(DownloadActivity.this, "Sass Downloading Started", Toast.LENGTH_SHORT).show();
+        });
+
 
 
     }

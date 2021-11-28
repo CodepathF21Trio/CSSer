@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CCCCCC"
+    android:background="@drawable/bg4"
     tools:context=".DownloadActivity">
 
     <Button
         android:id="@+id/sass_btn"
         android:layout_width="270dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#ADDB35FF"
         android:text="SASS"
         android:textSize="24sp"
@@ -27,7 +27,7 @@
         android:id="@+id/bootstrap_btn"
         android:layout_width="270dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#8BC34A"
         android:text="Bootstrap"
         android:textSize="24sp"
@@ -40,12 +40,12 @@
         app:strokeWidth="3dp" />
 
     <Button
-        android:id="@+id/tailwind_btn"
+        android:id="@+id/bulma_btn"
         android:layout_width="270dp"
         android:layout_height="100dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#009688"
-        android:text="Tailwind"
+        android:text="Bulma"
         android:textSize="24sp"
         app:cornerRadius="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,5 +71,16 @@
         app:layout_constraintVertical_bias="0.057"
         app:strokeColor="#2D50A6"
         app:strokeWidth="3dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="Switch"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bulma_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
