@@ -16,7 +16,7 @@
         android:layout_width="170dp"
         android:layout_height="190dp"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="35dp"
         android:backgroundTint="#876B19"
         android:text="Converter"
         android:textSize="21sp"
@@ -24,13 +24,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:strokeColor="#FF9800"
-        app:strokeWidth="6dp" />
+        app:strokeWidth="4dp" />
 
     <Button
         android:id="@+id/palette_btn"
         android:layout_width="170dp"
         android:layout_height="190dp"
-        android:layout_marginTop="90dp"
+        android:layout_marginTop="35dp"
         android:layout_marginEnd="20dp"
         android:backgroundTint="#1F7495"
         android:text="Palette"
@@ -46,7 +46,7 @@
         android:layout_width="170dp"
         android:layout_height="190dp"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="190dp"
         android:backgroundTint="#FA162E17"
         android:text="Camera"
         android:textSize="21sp"
@@ -62,7 +62,7 @@
         android:layout_width="170dp"
         android:layout_height="190dp"
         android:layout_marginEnd="20dp"
-        android:layout_marginBottom="90dp"
+        android:layout_marginBottom="190dp"
         android:backgroundTint="#7C4949"
         android:text="Download"
         android:textSize="21sp"
@@ -72,4 +72,21 @@
         app:layout_constraintTop_toBottomOf="@+id/palette_btn"
         app:strokeColor="#F44336"
         app:strokeWidth="4dp" />
+
+    <Button
+        android:id="@+id/color_picker_btn"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#7C4949"
+        android:text="Color Picker"
+        android:textSize="21sp"
+        app:cornerRadius="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/download_btn"
+        app:strokeColor="#F44336"
+        app:strokeWidth="4dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

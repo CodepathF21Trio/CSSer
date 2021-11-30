@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private Button paletteButton;
     private Button cameraButton;
     private Button downloadButton;
+    private Button colorPickerButton;
 
 
     @Override
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         paletteButton = findViewById(R.id.palette_btn);
         cameraButton = findViewById(R.id.camera_btn);
         downloadButton = findViewById(R.id.download_btn);
+        colorPickerButton = findViewById(R.id.color_picker_btn);
 
         // Go to converter activity
         converterButton.setOnClickListener(new View.OnClickListener() {
@@ -60,6 +62,12 @@ public class MainActivity extends AppCompatActivity {
                 openDownloadActivity();
             }
         });
+        colorPickerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openColorPickerActivity();
+            }
+        });
 
     }
 
@@ -84,8 +92,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+    public void openColorPickerActivity(){
+        Intent i = new Intent(MainActivity.this, ColorPickerActivity.class );
+        startActivity(i);
 
-
-
-
+    }
 }

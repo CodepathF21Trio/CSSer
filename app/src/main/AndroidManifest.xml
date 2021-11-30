@@ -23,6 +23,9 @@
             android:name=".HEXtoRGB"
             android:exported="true" />
         <activity
+            android:name=".ColorPickerActivity"
+            android:exported="false" />
+        <activity
             android:name=".DownloadActivity"
             android:exported="false" />
         <activity
