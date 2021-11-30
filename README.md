@@ -192,3 +192,10 @@ Optional:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint1.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
+
+
+## Video Walkthrough for Sprint 1
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint2.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
