@@ -30,20 +30,20 @@ This app helps people who are learning CSS. It has several modules that are spec
 
 **Required Must-have Stories**
 
--[ ] User can download CSS cheat sheets
-- User can convert colors (rgb to hex and hex to rgb)
-- User can checkout a variety of colors in palette
-- User can navigate between pages (download, camera, palette, snippet and conversion page)
+- [x] User can download CSS cheat sheets
+- [x] User can convert colors (rgb to hex and hex to rgb)
+- [x] User can checkout a variety of colors in palette
+- [x] User can navigate between pages (download, camera, palette, color picker and conversion page)
 
 **Optional Nice-to-have Stories**
 
-- User can login/register
-- User can logout
-- User data is persisted in a database
-- Make the UI look fancier
-- Camera detection is optional
-- Logo personal design
-- Use https://developer.android.com/training/material/palette-colors#java api to do extract color palette from image
+- [ ] User can login/register
+- [ ] User can logout
+- [ ] User data is persisted in a database
+- [x] Make the UI look fancier
+- [x] Camera detection is optional
+- [x] Logo personal design
+- [ ] Use https://developer.android.com/training/material/palette-colors#java api to do extract color palette from image
 
 ### 2. Screen Archetypes
 
