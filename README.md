@@ -37,13 +37,13 @@ This app helps people who are learning CSS. It has several modules that are spec
 
 **Optional Nice-to-have Stories**
 
-- [ ] User can login/register
-- [ ] User can logout
-- [ ] User data is persisted in a database
 - [x] Make the UI look fancier
 - [x] Camera detection is optional
 - [x] Logo personal design
 - [ ] Use https://developer.android.com/training/material/palette-colors#java api to do extract color palette from image
+- [ ] User can login/register
+- [ ] User can logout
+- [ ] User data is persisted in a database
 
 ### 2. Screen Archetypes
 
