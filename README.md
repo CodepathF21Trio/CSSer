@@ -30,7 +30,7 @@ This app helps people who are learning CSS. It has several modules that are spec
 
 **Required Must-have Stories**
 
-- User can download CSS cheat sheets
+-[ ] User can download CSS cheat sheets
 - User can convert colors (rgb to hex and hex to rgb)
 - User can checkout a variety of colors in palette
 - User can navigate between pages (download, camera, palette, snippet and conversion page)
