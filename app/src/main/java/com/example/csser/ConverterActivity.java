@@ -11,8 +11,6 @@ import android.view.animation.Animation;
 import android.widget.Button;
 
 public class ConverterActivity extends AppCompatActivity{
-    private Button rgbToHex;
-    private Button hexToRgb;
 
 
     @Override
@@ -21,8 +19,8 @@ public class ConverterActivity extends AppCompatActivity{
         setContentView(R.layout.activity_converter);
 
         // connect variable to the proper item in the layout
-        rgbToHex = findViewById(R.id.btnRGBtoHEX);
-        hexToRgb = findViewById(R.id.btnHEXtoRGB);
+        Button rgbToHex = findViewById(R.id.btnRGBtoHEX);
+        Button hexToRgb = findViewById(R.id.btnHEXtoRGB);
 
         rgbToHex.setOnClickListener(new View.OnClickListener() {
             @Override
