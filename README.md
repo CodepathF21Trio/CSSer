@@ -32,7 +32,7 @@ This app helps people who are learning CSS. It has several modules that are spec
 
 - [x] User can download CSS cheat sheets
 - [x] User can convert colors (rgb to hex and hex to rgb)
-- [ ] User can checkout a variety of colors in palette
+- [x] User can checkout a variety of colors in palette
 - [x] User can navigate between pages (download, camera, palette, color picker and conversion page)
 
 **Optional Nice-to-have Stories**
@@ -199,3 +199,10 @@ Here's a walkthrough of implemented user stories:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint2.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
+
+
+## Video Walkthrough for Sprint 2
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint3.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
