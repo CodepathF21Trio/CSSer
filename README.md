@@ -199,3 +199,10 @@ Here's a walkthrough of implemented user stories:
 Here's a walkthrough of implemented user stories:
 
 <img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint2.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
+
+
+## Video Walkthrough for Sprint 2
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/CodepathF21Trio/CSSer/blob/main/walkthroughSprint3.gif' title='Video Walkthrough (Sprint 1)' width='' alt='Video Walkthrough' />
