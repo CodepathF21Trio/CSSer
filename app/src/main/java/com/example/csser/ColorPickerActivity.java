@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 
 public class ColorPickerActivity extends AppCompatActivity{
@@ -22,6 +24,14 @@ public class ColorPickerActivity extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_color_picker);
+
+        //animate the background
+        LinearLayout constraintLayout = findViewById(R.id.color_picker_layout);
+        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(2500);
+        animationDrawable.setExitFadeDuration(5000);
+        animationDrawable.start();
+
         colorPickerImg = findViewById(R.id.colorPickerImg);
         hexValue = findViewById(R.id.hexValue);
         rgbValue = findViewById(R.id.rgbValue);

@@ -1,8 +1,11 @@
 package com.example.csser;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -19,6 +22,14 @@ public class PaletteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_palette);
+
+        //animate the background
+        LinearLayout constraintLayout = findViewById(R.id.palette_layout);
+        AnimationDrawable animationDrawable = (AnimationDrawable) constraintLayout.getBackground();
+        animationDrawable.setEnterFadeDuration(2500);
+        animationDrawable.setExitFadeDuration(5000);
+        animationDrawable.start();
+
         rvColor = findViewById(R.id.rvColor);
         colors = new ArrayList<>();
 
