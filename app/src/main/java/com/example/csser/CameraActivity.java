@@ -62,8 +62,6 @@ public class CameraActivity extends AppCompatActivity {
     private ImageView ivImage;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
