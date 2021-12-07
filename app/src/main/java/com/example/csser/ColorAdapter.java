@@ -1,6 +1,7 @@
 package com.example.csser;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,9 +16,9 @@ import java.util.ArrayList;
 public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ViewHolder>{
 
     private Context context;
-    private ArrayList<Color> colors;
+    private ArrayList<AColor> colors;
 
-    public ColorAdapter(Context context, ArrayList<Color> colors){
+    public ColorAdapter(Context context, ArrayList<AColor> colors){
         this.context = context;
         this.colors = colors;
     }
@@ -31,7 +32,7 @@ public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ViewHolder>{
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-        Color color = colors.get(position);
+        AColor color = colors.get(position);
         holder.bind(color);
     }
 
@@ -56,8 +57,8 @@ public class ColorAdapter extends RecyclerView.Adapter<ColorAdapter.ViewHolder>{
             colorRgb = itemView.findViewById(R.id.colorRgb);
         }
 
-        public void bind(Color color){
-            colorBox.setBackgroundColor(550000);
+        public void bind(AColor color){
+            colorBox.setBackgroundColor(Color.parseColor(color.getHex()));
             colorName.setText(color.getName());
             colorHex.setText(color.getHex());
             colorRgb.setText(color.getRgb());

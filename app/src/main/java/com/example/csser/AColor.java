@@ -1,11 +1,11 @@
 package com.example.csser;
 
-public class Color {
+public class AColor {
     private String name;
     private String hex;
     private String rgb;
 
-    public Color(String name, String hex, String rgb){
+    public AColor(String name, String hex, String rgb){
         this.name = name;
         this.hex = hex;
         this.rgb = rgb;
