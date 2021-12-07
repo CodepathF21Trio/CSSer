@@ -13,7 +13,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#ADDB35FF"
-        android:text="SASS"
+        android:text="@string/sass"
         android:textSize="24sp"
         app:cornerRadius="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
         android:backgroundTint="#8BC34A"
-        android:text="Bootstrap"
+        android:text="@string/bootstrap"
         android:textSize="24sp"
         app:cornerRadius="18dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,16 +71,5 @@
         app:layout_constraintVertical_bias="0.057"
         app:strokeColor="#2D50A6"
         app:strokeWidth="3dp" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="41dp"
-        android:text="Switch"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bulma_btn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
